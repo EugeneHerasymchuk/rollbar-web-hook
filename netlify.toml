@@ -2,7 +2,7 @@
   command = "make build"
   functions = "functions"
 [build.environment]
-  GO_IMPORT_PATH = "github.com/EugeneHerasymchuk/go-functions-example"
+  GO_IMPORT_PATH = "github.com/EugeneHerasymchuk/rollbar-web-hook"
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
